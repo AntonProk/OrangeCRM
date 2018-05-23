@@ -1,0 +1,11 @@
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.csprojResolveAssemblyReference.cache
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\OrangeCRM.dll
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\OrangeCRM.pdb
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\nunit.framework.dll
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.dll
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.Support.dll
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\nunit.framework.xml
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.xml
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.Support.xml
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.dll
+c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.pdb
