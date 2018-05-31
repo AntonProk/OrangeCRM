@@ -8,7 +8,7 @@ using OpenQA.Selenium.Support.PageObjects;
 
 namespace OrangeCRM.Pages
 {
-   public class LoginPage
+   public class LoginPage : Elements.Elements
     {
 
         [FindsBy(How = How.Id, Using = "txtUsername")]
@@ -21,12 +21,6 @@ namespace OrangeCRM.Pages
         private IWebElement loginBtn;
 
 
-        private string AdminName = "Admin";
-        private string AdminPwd = "admin";
-
-        private string Username = "AntonProk";
-        private string UserPwd = "Password1";
-
         public void LoginAsAdmin()
         {
             userName.SendKeys(AdminName);
@@ -34,9 +28,9 @@ namespace OrangeCRM.Pages
             loginBtn.Click();
         }
 
-        public void LoginAsNewUser()
+        public void LoginAsNewUser(string NewUser)
         {
-            userName.SendKeys(Username);
+            userName.SendKeys(NewUser);
             userPwd.SendKeys(UserPwd);
             loginBtn.Click();
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
@@ -13,38 +14,50 @@ using OrangeCRM.Pages;
 
 namespace OrangeCRM.Tests
 {
-    public class VerifyThatNewUserCanLogin
+    public class VerifyThatNewUserCanLogin : Elements.Elements
     {
         [SetUp]
 
         public void Initialized()
         {
-            DriverInit.driver = new ChromeDriver();
-            DriverInit.driver.Navigate().GoToUrl("http://opensource.demo.orangehrmlive.com");
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("http://opensource.demo.orangehrmlive.com");
         }
         [Test]
-        public void SignIn()
+        public void VerifyThatNewUserIsCreatedAndCanLogIn()
         {
 
             LoginPage loginpage = new LoginPage();
-            PageFactory.InitElements(DriverInit.driver, loginpage);
+            PageFactory.InitElements(driver, loginpage);
+
+            PIMView pimview = new PIMView();
+            PageFactory.InitElements(driver, pimview);
+
             AdminView admin = new AdminView();
-            PageFactory.InitElements(DriverInit.driver, admin);
+            PageFactory.InitElements(driver, admin);
 
             loginpage.LoginAsAdmin();
 
+            pimview.OpenPIMView();
+            pimview.AddBtnClick();
+            pimview.FillUpThePIMForm();
+            var firstUserName = pimview.FirstNameUuid;
+            pimview.SubmitThePIMForm();
 
             admin.OpenAdminView();
             admin.AddBtnClick();
-            admin.AddUser();
+            admin.FillUpTheForm(firstUserName);
+            var u = admin.NewUserUuid;
+            admin.SubmitTheForm();
+            Thread.Sleep(1000);
+
 
             admin.OpenWelcomeDropDown();
             admin.LogoutClick();
 
-            DashboardPage dashboard = new DashboardPage();
-            PageFactory.InitElements(DriverInit.driver, dashboard);
-
-            loginpage.LoginAsNewUser();
+            TimeView dashboard = new TimeView();
+            PageFactory.InitElements(driver, dashboard);
+            loginpage.LoginAsNewUser(u);
             Assert.That(dashboard.IsPageDisplayed, Is.True);
         }      
 
@@ -52,7 +65,7 @@ namespace OrangeCRM.Tests
 
         public void CleanUp()
         {
-            DriverInit.driver.Close();  
+            driver.Close();  
         }
     }
 }

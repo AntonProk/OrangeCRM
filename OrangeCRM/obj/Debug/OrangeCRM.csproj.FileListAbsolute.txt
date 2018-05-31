@@ -9,3 +9,16 @@ c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\De
 c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.Support.xml
 c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.dll
 c:\users\dexter\documents\visual studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.pdb
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\OrangeCRM.dll
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\OrangeCRM.pdb
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\nunit.framework.dll
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.dll
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.Support.dll
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\nunit.framework.xml
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.xml
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\bin\Debug\WebDriver.Support.xml
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.csprojResolveAssemblyReference.cache
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.dll
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.pdb
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.Resource.resources
+C:\Users\Anton Prokofiev\Documents\Visual Studio 2015\Projects\OrangeCRM\OrangeCRM\obj\Debug\OrangeCRM.csproj.GenerateResource.Cache
